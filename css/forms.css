@@ -1,0 +1,228 @@
+
+
+
+	fieldset {border: none;}
+
+	
+	input[type="reset"],
+	input[type="submit"],
+	input[type="button"] {
+		cursor: pointer;
+		display: inline-block;
+		outline: 0;
+		overflow: visible;
+		text-decoration: none;
+		vertical-align: middle;
+		width: auto;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight:600;
+		margin: 0 5px 5px 0;
+		max-width: 100%;
+		border-radius: 3px;
+		border-width: 2px;
+		border-style: solid;
+		padding:13px 28px 13px 28px;
+		font-size: 16px;
+		line-height: 20px;
+		-webkit-backface-visibility: hidden;
+	
+	}
+
+	
+	input[type="reset"]:hover,
+	input[type="submit"]:hover,
+	input[type="button"]:hover {
+		opacity: 0.75;
+	}
+
+	
+
+	textarea,
+	select[size],
+	select[multiple] {
+	  height: auto;
+	}
+
+	textarea {
+	  min-height: 100px;
+	  overflow: auto;
+	  resize: vertical;
+	  width: 100%;
+	}
+
+	optgroup {
+	  font-style: normal;
+	  font-weight: normal;
+	}
+
+	optgroup::-moz-focus-inner {
+	  border: 0;
+	  padding: 0;
+	}
+
+	textarea,
+	select,
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="text"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"] {
+		display: block;
+		outline: 0;
+		margin: 0 0 25px 0;
+		text-align: left;
+		vertical-align: top;
+		height:50px;
+		max-width: 100%;
+		width: 100%;
+		padding:10px 30px 10px 30px;
+		-webkit-backface-visibility: hidden;
+		border-radius: 3px;
+		border:1px solid #d0d0d0;
+		background-color:transparent;
+		-webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+		position: relative;
+		font-size: 16px;
+		color: #262626;
+		font-weight: 300;
+	}
+
+	body[data-skin="dark"] textarea,
+	body[data-skin="dark"] select,
+	body[data-skin="dark"] input[type="date"],
+	body[data-skin="dark"] input[type="datetime"],
+	body[data-skin="dark"] input[type="datetime-local"],
+	body[data-skin="dark"] input[type="email"],
+	body[data-skin="dark"] input[type="month"],
+	body[data-skin="dark"] input[type="number"],
+	body[data-skin="dark"] input[type="password"],
+	body[data-skin="dark"] input[type="search"],
+	body[data-skin="dark"] input[type="tel"],
+	body[data-skin="dark"] input[type="text"],
+	body[data-skin="dark"] input[type="time"],
+	body[data-skin="dark"] input[type="url"],
+	body[data-skin="dark"] input[type="week"] {
+		border:1px solid #464951;
+		-webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	input[type="date"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="number"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"] {
+		padding-right: 13px !important;
+	}
+
+	input[type="search"] {
+		cursor: pointer;
+		display: block;
+		width:100%;
+		width: calc(100% - 79px);
+		height:30px;
+	}
+
+	.form-wrap[class*=" icon-"] textarea,
+	.form-wrap[class*=" icon-"] select,
+	.form-wrap[class*=" icon-"] input[type="date"],
+	.form-wrap[class*=" icon-"] input[type="datetime"],
+	.form-wrap[class*=" icon-"] input[type="datetime-local"],
+	.form-wrap[class*=" icon-"] input[type="email"],
+	.form-wrap[class*=" icon-"] input[type="month"],
+	.form-wrap[class*=" icon-"] input[type="number"],
+	.form-wrap[class*=" icon-"] input[type="password"],
+	.form-wrap[class*=" icon-"] input[type="search"],
+	.form-wrap[class*=" icon-"] input[type="tel"],
+	.form-wrap[class*=" icon-"] input[type="text"],
+	.form-wrap[class*=" icon-"] input[type="time"],
+	.form-wrap[class*=" icon-"] input[type="url"],
+	.form-wrap[class*=" icon-"] input[type="week"],
+	.form-wrap[class^=icon-] textarea,
+	.form-wrap[class^=icon-] select,
+	.form-wrap[class^=icon-] input[type="date"],
+	.form-wrap[class^=icon-] input[type="datetime"],
+	.form-wrap[class^=icon-] input[type="datetime-local"],
+	.form-wrap[class^=icon-] input[type="email"],
+	.form-wrap[class^=icon-] input[type="month"],
+	.form-wrap[class^=icon-] input[type="number"],
+	.form-wrap[class^=icon-] input[type="password"],
+	.form-wrap[class^=icon-] input[type="search"],
+	.form-wrap[class^=icon-] input[type="tel"],
+	.form-wrap[class^=icon-] input[type="text"],
+	.form-wrap[class^=icon-] input[type="time"],
+	.form-wrap[class^=icon-] input[type="url"],
+	.form-wrap[class^=icon-] input[type="week"] {
+		padding:10px 30px 10px 50px;
+	}
+
+	.form-wrap {position: relative;}
+
+	.form-wrap:before {
+		display: block;
+		font-size:16px;
+		color: #e0e0e0;
+		position: absolute;
+		top: 50%;
+		left: 20px;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	.form-wrap.textarea:before {
+		top: 15px;
+		-webkit-transform: translateY(0%);
+		-moz-transform: translateY(0%);
+		-o-transform: translateY(0%);
+		transform: translateY(0%);
+	}
+
+	.form-wrap:after {
+		display: block;
+		font-size:16px;
+		position: absolute;
+		top: 50%;
+		left:20px;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		content: attr(data-value);
+	}
+
+	label {
+		display: block;
+		margin-bottom: 8px;
+		padding-left: 15px;
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	input[type="radio"],
+	input[type="checkbox"] {
+		margin: 5px 0;
+		display: inline-block;
+	}
+	
+	input[type="submit"]{
+	border-color: #d90f30;
+		background-color: #d90f30;
+		color: #fff;
+}
